@@ -1,0 +1,11 @@
+@APBD6_HostAddress = http://localhost:5037
+
+GET {{APBD6_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{APBD6_HostAddress}}/todos/1
+Accept: application/json
+
+###
